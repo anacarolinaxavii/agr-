@@ -1,6 +1,6 @@
 <?php
 if (isset($_request['sair'])){
-unset($_session['gescolar_dados_usuario'])
+unset($_session['gescolar_dados_usuario']);
 header("location login.com");
 }
 
